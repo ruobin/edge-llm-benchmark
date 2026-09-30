@@ -1,0 +1,22 @@
+[
+  {"id":"arithmetic_01","category":"arithmetic","prompt":"Compute 17 + 25. Reply with digits only.","score":{"type":"exact","value":"42"}},
+  {"id":"arithmetic_02","category":"arithmetic","prompt":"Compute 9 times 7. Reply with digits only.","score":{"type":"exact","value":"63"}},
+  {"id":"arithmetic_03","category":"arithmetic","prompt":"A train travels 120 km in 2 hours. Give its average speed in km/h. Reply with digits only.","score":{"type":"exact","value":"60"}},
+  {"id":"arithmetic_04","category":"arithmetic","prompt":"What is 15 percent of 200? Reply with digits only.","score":{"type":"exact","value":"30"}},
+  {"id":"arithmetic_05","category":"arithmetic","prompt":"The median of 2, 3, and 10 is what? Reply with digits only.","score":{"type":"exact","value":"3"}},
+  {"id":"extraction_01","category":"extraction","prompt":"Extract the ticket ID from: 'Customer says ticket INC-2047 was resolved yesterday.' Reply with the ID only.","score":{"type":"exact","value":"INC-2047"}},
+  {"id":"extraction_02","category":"extraction","prompt":"Given 'The package weighs 4 kg and costs $19', reply with the price including the dollar sign only.","score":{"type":"exact","value":"$19"}},
+  {"id":"extraction_03","category":"extraction","prompt":"In 'Ava emailed Noah on Tuesday', who received the email? Reply with the name only.","score":{"type":"exact","value":"Noah"}},
+  {"id":"extraction_04","category":"extraction","prompt":"Read: 'The red server is in rack B; the blue server is in rack C.' Which rack has the blue server? Reply with the rack letter only.","score":{"type":"exact","value":"C"}},
+  {"id":"extraction_05","category":"extraction","prompt":"Read: 'The meeting moved from Monday to Thursday.' Reply with the new day only.","score":{"type":"exact","value":"Thursday"}},
+  {"id":"classification_01","category":"classification","prompt":"Classify as positive, negative, or neutral: 'The update fixed every issue I had.' Reply with one label only.","score":{"type":"exact","value":"positive"}},
+  {"id":"classification_02","category":"classification","prompt":"Classify as positive, negative, or neutral: 'The app crashes whenever I sign in.' Reply with one label only.","score":{"type":"exact","value":"negative"}},
+  {"id":"classification_03","category":"classification","prompt":"Classify as positive, negative, or neutral: 'The release is scheduled for Friday.' Reply with one label only.","score":{"type":"exact","value":"neutral"}},
+  {"id":"json_01","category":"json","prompt":"Return only a JSON object with keys 'name' and 'age' for: 'Mina is 29 years old.' Use age as a number.","score":{"type":"json","value":{"name":"Mina","age":29}}},
+  {"id":"json_02","category":"json","prompt":"Return only this data as a JSON object: city is Oslo, temperature_c is 8. Use exactly those two keys and a numeric temperature.","score":{"type":"json","value":{"city":"Oslo","temperature_c":8}}},
+  {"id":"json_03","category":"json","prompt":"Return only a JSON object with keys 'priority' and 'open' for an open high-priority ticket. The value of open must be a boolean.","score":{"type":"json","value":{"priority":"high","open":true}}},
+  {"id":"instruction_01","category":"instruction","prompt":"Reply with exactly the word PING in uppercase and nothing else.","score":{"type":"exact","value":"PING"}},
+  {"id":"instruction_02","category":"instruction","prompt":"Sort these words alphabetically: pear, apple, banana. Reply with comma-space-separated words only.","score":{"type":"exact","value":"apple, banana, pear"}},
+  {"id":"summary_01","category":"summary","prompt":"Summarize in one sentence: 'A retailer moved its checkout service closer to customers. Median latency fell, but the company still needs to measure tail latency and cost.'"},
+  {"id":"coding_01","category":"coding","prompt":"Write a short Python function that returns the maximum value in a nonempty list of integers. Explain one edge case in a comment."}
+]
